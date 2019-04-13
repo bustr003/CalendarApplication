@@ -18,8 +18,39 @@ public class Event {
     }
 
     public void editEvent(){
-        name = editEventName();
-        void editDates(startDate, endDate);
+        public String field;
+
+        //does the user want to edit the event name
+        field = "nameField";
+        if(chooseToEditField(field))
+            name = setEventName();
+
+        //editDates(startDate, endDate, field);
+
+        //does the user want to edit the start date
+        field = "startDate";
+        if(chooseToEditField(field))
+            startDate = setStartDate();
+
+        //does the user want to edit the end date
+        field = "endDate";
+        if(chooseToEditField(field))
+            endDate = setEndDate();
+
+        //check the dates
+         while(!checkDatesValid(startDate, endDate)){
+             //does the user want to edit the start date
+             field = "startDate";
+             if(chooseToEditField(field))
+                 startDate = setStartDate();
+
+             //does the user want to edit the end date
+             field = "endDate";
+             if(chooseToEditField(field))
+                 endDate = setEndDate();
+         }
+
+        //cannot change event creator
     }
 
     public String setEventName(){
@@ -48,8 +79,32 @@ public class Event {
             return false;
     }
 
+    /*
+    void editDates(String s, String e, String f){
+        //does the user want to edit the start date
+        f = "startDate";
+        if(chooseToEditField(f))
+            startDate = setStartDate();
+
+        //does the user want to edit the end date
+        f= "endDate";
+        if(chooseToEditField(f))
+            endDate = setEndDate();
+    }
+    */
+
     public String getUserID(){
         //get user ID
     }
 
+    public Boolean chooseToEditField(String f){
+        cout << "do u wanna change " << f << "?\n"
+            << "y or n";
+        cin >> choice;
+
+        if(choice==y)
+            return true;
+        else
+            return false;
+    }
 }
