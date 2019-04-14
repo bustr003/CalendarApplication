@@ -28,24 +28,24 @@ public class Event {
         //editDates(startDate, endDate, field);
 
         //does the user want to edit the start date
-        field = "startDate";
+        field = "startDateField";
         if(chooseToEditField(field))
             startDate = setStartDate();
 
         //does the user want to edit the end date
-        field = "endDate";
+        field = "endDateField";
         if(chooseToEditField(field))
             endDate = setEndDate();
 
         //check the dates
          while(!checkDatesValid(startDate, endDate)){
              //does the user want to edit the start date
-             field = "startDate";
+             field = "startDateField";
              if(chooseToEditField(field))
                  startDate = setStartDate();
 
              //does the user want to edit the end date
-             field = "endDate";
+             field = "endDateField";
              if(chooseToEditField(field))
                  endDate = setEndDate();
          }
