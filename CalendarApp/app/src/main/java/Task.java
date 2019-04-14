@@ -2,6 +2,7 @@ public class Task {
     //attributes
     private String name;
     private String category;
+    private String description;
     private String startDate;
     private String dueDate;
     private String creator;
@@ -11,6 +12,8 @@ public class Task {
         name = setTaskName();
 
         category = setCategory();
+
+        description = setDescription();
 
         do {
             startDate = setStartDate();
@@ -27,6 +30,11 @@ public class Task {
         field = "nameField";
         if(chooseToEditField(field))
             name = setEventName();
+
+        //does the user want to edit the description
+        field = "descriptionField";
+        if(chooseToEditField(field))
+            name = setDescription();
 
         //does the user want to edit the category
         field = "categoryField";
@@ -79,6 +87,12 @@ public class Task {
         //let the user select one
         //or cancel
       }
+    }
+
+    public String setDescription(){
+      //get user input
+
+      //check if valid
     }
 
     public String setStartDate(){
