@@ -74,7 +74,7 @@ public class Task {
       char choice = 'n';
       cout << "do u wanna set a category? y or n\n";
       cin >> choice;
-      if(choice choice=='y'){
+      if(choice=='y'){
         //list the categories
         //let the user select one
         //or cancel
