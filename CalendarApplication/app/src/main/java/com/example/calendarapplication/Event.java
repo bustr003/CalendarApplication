@@ -1,11 +1,29 @@
 package com.example.calendarapplication;
 
+//annotations
+@Entity(tableName = "Events_table") //each @Entity class represents an entity in a tble
+
 public class Event {
+
+    //annotations
+    @PrimaryKey //every entity needs a primary key. to keep things simple, each event acts as its own pk
+    @NonNull //a parameter, field, or method return value can never be null
+    @ColumnInfo(name = "event") //the name of the column in the table
+
+    //?
+    private String mEvent;
+
     //attributes
     private String name;
     private String startDate;
     private String endDate;
     private String creator;
+
+    //??
+    public Event(@NonNull String event) {this.mEvent = event;}
+
+    //getter method; every field that's stored in the database needs to either be public or have a "getter" method.
+    public String getEvent(){return this.mEvent;}
 
     //FUNCTIONS
     public void createEvent(){
