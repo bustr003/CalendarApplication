@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="84eab87b-f377-43f2-840b-380e71c2634d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalendarApplication/app/src/main/java/com/example/calendarapplication/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalendarApplication/app/src/main/java/com/example/calendarapplication/Event.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +14,11 @@
     <session id="1717241828">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -48,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CalendarApplication/app/src/main/java/com/example/calendarapplication/Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="24" column="115" selection-start-line="24" selection-start-column="115" selection-end-line="24" selection-end-column="115" />
+            <state relative-caret-position="144">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -74,7 +74,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-242" />
+    <option name="x" value="99" />
     <option name="y" value="22" />
     <option name="width" value="953" />
     <option name="height" value="800" />
@@ -84,6 +84,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,7 +164,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -197,8 +197,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-242" y="22" width="953" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="99" y="22" width="953" height="800" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26609442" />
@@ -220,18 +219,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CalendarApp/app/src/main/java/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1106" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CalendarApp/app/src/main/java/Task.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CalendarApp/app/src/main/java/Event.java" />
+    <entry file="file://$PROJECT_DIR$/CalendarApp/app/src/main/java/Task.java" />
     <entry file="file://$PROJECT_DIR$/CalendarApplication/app/src/main/java/com/example/calendarapplication/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="115" selection-start-line="24" selection-start-column="115" selection-end-line="24" selection-end-column="115" />
+        <state relative-caret-position="144">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
