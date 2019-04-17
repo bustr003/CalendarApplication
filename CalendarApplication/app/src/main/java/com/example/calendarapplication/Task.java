@@ -1,123 +1,24 @@
-package com.example.calendarapplication;
+//pasted from Drive
+import android.arch.persistence.room.ColumnInfo;
+import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.PrimaryKey;
+import android.support.annotation.NonNull;
 
+@Entity(tableName = "tasks")
 public class Task {
-    //attributes
-    private String name;
-    private String category;
-    private String description;
-    private String startDate;
-    private String dueDate;
-    private String creator;
+   @PrimaryKey
+   private int _id;
+   @NonNull
+   @ColumnInfo(name = "task")
+   private String task;
+   @NonNull
+   @ColumnInfo(name = "date")
+   private String date;
 
-    //FUNCTIONS
-    public void createTask(){
-        name = setTaskName();
-
-        category = setCategory();
-
-        description = setDescription();
-
-        do {
-            startDate = setStartDate();
-            endDate = setDueDate();
-        }while(!checkDatesValid(startDate, dueDate))
-
-        creator = getUserID();
-    }
-
-    public void editTask(){
-        public String field;
-
-        //does the user want to edit the event name
-        field = "nameField";
-        if(chooseToEditField(field))
-            name = setEventName();
-
-        //does the user want to edit the description
-        field = "descriptionField";
-        if(chooseToEditField(field))
-            name = setDescription();
-
-        //does the user want to edit the category
-        field = "categoryField";
-        if(chooseToEditField(field)){
-            //list the categories
-            //let the user select one
-            //or cancel
-        }
-
-        //editDates(startDate, endDate, field);
-
-        //does the user want to edit the start date
-        field = "startDateField";
-        if(chooseToEditField(field))
-            startDate = setStartDate();
-
-        //does the user want to edit the due date
-        field = "dueDateField";
-        if(chooseToEditField(field))
-            endDate = setEndDate();
-
-        //check the dates
-        while(!checkDatesValid(startDate, dueDate)){
-            //does the user want to edit the start date
-            field = "startDateField";
-            if(chooseToEditField(field))
-                startDate = setStartDate();
-
-            //does the user want to edit the end date
-            field = "dueDateField";
-            if(chooseToEditField(field))
-                endDate = setDueDate();
-        }
-
-        //cannot change task creator
-    }
-
-    public String setTaskName(){
-        //get user input
-
-        //check if valid
-    }
-
-    public String setCategory(){
-        char choice = 'n';
-        cout << "do u wanna set a category? y or n\n";
-        cin >> choice;
-        if(choice=='y'){
-            //list the categories
-            //let the user select one
-            //or cancel
-        }
-    }
-
-    public String setDescription(){
-        //get user input
-
-        //check if valid
-    }
-
-    public String setStartDate(){
-        //get user input: startDate
-
-        //check if valid date
-    }
-
-    public String setDueDate(){
-        //get user input: endDate
-
-        //check if valid date
-
-    }
-
-    public Boolean checkDatesValid(String s, String d){
-        if(s<=d)
-            return true;
-        else
-            return false;
-    }
-
-    public String getUserID(){
-        //get user ID
-    }
+   public int get_id(){return _id;}
+   public void set_id(int the_id){ _id = the_id;}
+   public String get_task(){return task;}
+   public void set_task(String the_task){task = the_task;}
+   public String get_date(){return date;}
+   public void set_date(String the_date){date = the_date;}
 }
