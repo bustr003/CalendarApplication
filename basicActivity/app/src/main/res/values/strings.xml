@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">To-Do List</string>
+    <string name="action_settings">Calendar App</string>
+
+    //add string resources for adding a new task
+    <string name="hint_task">Task...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Task not saved because it is empty.</string>
+
+    //string resources for removing a task
+    <string name="button_remove">Remove</string>
+    <string name="title_activity_remove_task">RemoveTask</string>
+</resources>
