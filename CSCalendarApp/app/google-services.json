@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "902958891263",
+    "firebase_url": "https://cscalendarapp-a7cae.firebaseio.com",
+    "project_id": "cscalendarapp-a7cae",
+    "storage_bucket": "cscalendarapp-a7cae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902958891263:android:4d6fe74121c525bb",
+        "android_client_info": {
+          "package_name": "edu.csusm.cscalendarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902958891263-di1uckrrutrje9pf23bdvppst9on679s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.csusm.cscalendarapp",
+            "certificate_hash": "208ce5aad9748f8cf3b8d196d9b4f5a43dcfde8b"
+          }
+        },
+        {
+          "client_id": "902958891263-2n58defdhfisb8hc859seoks28hlkb3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiQoafBPnN42Ud1I744hAjLW5rqfDG_Ns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902958891263-2n58defdhfisb8hc859seoks28hlkb3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
