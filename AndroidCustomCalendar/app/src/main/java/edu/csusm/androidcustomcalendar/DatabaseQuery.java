@@ -33,7 +33,7 @@ public class DatabaseQuery extends DatabaseObject{
                 Date reminderDate = convertStringToDate(startDate);
                 if(reminderDate.after(dateToday) || reminderDate.equals(dateToday)){
                     events.add(new EventObjects(id, message, reminderDate));
-                }
+            }
             }while (cursor.moveToNext());
         }
         cursor.close();
