@@ -11,7 +11,7 @@ previous versions/prototypes of our application.
 All code was written using Android Studio.
 
 
-Documents written regarding our project have been uploaded as PDF files.
+Documents written for our project have been uploaded as PDF files.
 
 Presentation slides have been uploaded as PDF files.
 
