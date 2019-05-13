@@ -1,5 +1,5 @@
 # CalendarApplication
-SE project
+SE project. Application C. Group members: Kyle Allen, Mhealyssah Bustria, Jasper Cavins, Favian Quatch.
 
 The "CalendarApplication" folder contains all of the source code used for our final application.
 
@@ -16,3 +16,7 @@ Video demos have been uploaded as .mov files.
 
 
 .rtf and .txt files were created for exercise purposes and are NOT used for our application.
+
+.zip files contain Android Studio projects.
+The files were uploaded in a zip folder because of the large number of files included in a project.
+The extracted files were pushed into the repository using GitHub Desktop.
