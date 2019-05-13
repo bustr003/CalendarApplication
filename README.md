@@ -1,5 +1,6 @@
 # CalendarApplication
-SE project. Application C. Group members: Kyle Allen, Mhealyssah Bustria, Jasper Cavins, Favian Quatch.
+SE project. CS 441, Spring 2019. Application C.
+Group members: Kyle Allen, Mhealyssah Bustria, Jasper Cavins, Favian Quatch.
 
 The "CalendarApplication" folder contains all of the source code used for our final application.
 
