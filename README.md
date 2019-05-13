@@ -7,6 +7,7 @@ The "CalendarApplication" folder contains all of the source code used for our fi
 
 "AndroidCustomCalendar", "CSCalendarApp", and "basicActivity" contain source code used in
 previous versions/prototypes of our application.
+
 All code was written using Android Studio.
 
 
